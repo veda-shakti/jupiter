@@ -27,6 +27,13 @@
 
 }
 
+.no-select {
+    user-select: none;
+    -moz-user-select: none; /* Для Firefox */
+    -webkit-user-select: none; /* Для Chrome, Safari и Opera */
+    -ms-user-select: none; /* Для Internet Explorer/Edge */
+}
+
 .absolute {
     position: absolute;
     width: 100%;

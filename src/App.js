@@ -6,6 +6,7 @@ import ContactFormPay from "./components/FormPay/ContactFormPay";
 import ModalContext from "./components/FormPay/ModalContext";
 import LanguageContext from "./components/LanguageContext";
 import Loader from './components/Loader';
+import {Helmet} from "react-helmet";
 
 function App()
 {
@@ -310,6 +311,9 @@ function App()
       
     return (
         <div className="App">
+            <Helmet>
+                <title>Духовно-астрологическая практика. Увеличение удачи, финансового благополучия и счастья в семейной жизни</title>
+            </Helmet>
             {isLoading && (
                 <Loader className={startFadeOut ? 'fadeOutUp' : ''} />
             )}

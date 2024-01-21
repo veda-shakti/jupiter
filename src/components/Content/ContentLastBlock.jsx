@@ -15,7 +15,7 @@ const ContentLastBlock = (props) => {
                 <div className="contentblock"></div>
                     {/*<img src={bg} alt="background" className="lastblock_bg"/>*/}
                 <div className="lastblock_info">
-                    <img src={emblem} alt="emblem" className="lastblock_img"></img>
+                    <img src={emblem} alt="emblem" className="lastblock_img no-select"></img>
                     <h2 className="lastblock_h2">
                         Астрологическая практика-упая
                         «SPA ДЛЯ ДУШИ»

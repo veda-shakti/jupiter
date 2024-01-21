@@ -361,7 +361,7 @@ footer a {
       transform: translateX(0) ;
     }
     to{
-        transform: translateX(80%) ;
+        transform: translateX(100%) ;
     }
 }
 
@@ -371,14 +371,14 @@ footer a {
         transform: translateX(0) ;
     }
     to{
-        transform: translateX(-80%) ;
+        transform: translateX(-100%) ;
     }
 }
 
 
 @keyframes open1 {
     from{
-        transform: translateX(-80%) ;
+        transform: translateX(-100%) ;
     }
     to{
         transform: translateX(0) ;
@@ -387,7 +387,7 @@ footer a {
 }
 @keyframes open2 {
     from {
-        transform: translateX(80%);
+        transform: translateX(100%);
     }
     to {
         transform: translateX(0);
