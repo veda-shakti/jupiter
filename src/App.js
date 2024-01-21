@@ -20,6 +20,8 @@ function App()
     const [bgtypebg, setBgtypebg] = useState('bg-img-1');
     const isSwiping = useRef(false);
 
+
+
     useEffect(() => {
         let shouldswitch = true;
         const frames = document.querySelectorAll('.content');
@@ -311,9 +313,6 @@ function App()
       
     return (
         <div className="App">
-            <Helmet>
-                <title>Духовно-астрологическая практика. Увеличение удачи, финансового благополучия и счастья в семейной жизни</title>
-            </Helmet>
             {isLoading && (
                 <Loader className={startFadeOut ? 'fadeOutUp' : ''} />
             )}
