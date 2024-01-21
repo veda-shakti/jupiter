@@ -6,7 +6,6 @@ import ContactFormPay from "./components/FormPay/ContactFormPay";
 import ModalContext from "./components/FormPay/ModalContext";
 import LanguageContext from "./components/LanguageContext";
 import Loader from './components/Loader';
-import {Helmet} from "react-helmet";
 
 function App()
 {
