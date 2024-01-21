@@ -1,0 +1,245 @@
+.content{
+  &.PhoneMainInfo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+      .frame3_block {
+        opacity: 1;
+        width: 915px;
+        height: fit-content;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(37deg, rgba(251, 245, 231, 0.80) -13.83%, rgba(255, 250, 239, 0.80) 50.49%, rgba(241, 233, 215, 0.80) 86.98%, rgba(202, 189, 163, 0.80) 109.35%);
+        border-radius: 15px;
+        padding: 30px;
+        &.no-background {
+          background: none;
+        }
+
+      }
+      .frame3_block_h4 {
+        font-family: 'Futura PT', sans-serif;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 44px */
+        background: linear-gradient(238deg, #713513 0.85%, #BE7C4D 43.51%, #DCAE7B 47.39%, #BE7C4D 50.62%, #713513 90.69%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .frame3_block_h2 {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        width: fit-content;
+        font-weight: 700;
+        line-height: 110%; /* 44px */
+        position: relative;
+        margin: 0 0 20px 0 ;
+        background: linear-gradient(238deg, #713513 0.85%, #BE7C4D 43.51%, #DCAE7B 47.39%, #BE7C4D 50.62%, #713513 90.69%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .frame3_block_p {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 115%;
+        height: auto;
+        position: relative;
+        margin: 0;
+        width: 915px;
+        white-space: pre-line;
+        ul {
+          margin: 0;
+        }
+        li {
+          margin-bottom: 10px;
+        }
+        span {
+          font-size: 24px;
+          line-height: 27.6px;
+        }
+      }
+
+      .frame3_block_h3 {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        height:40px;
+        line-height: 110%; /* 44px */
+        position: relative;
+        margin: 0;
+        background: linear-gradient(238deg, #713513 0.85%, #BE7C4D 43.51%, #DCAE7B 47.39%, #BE7C4D 50.62%, #713513 90.69%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+  }
+}
+@media (min-width: 960px) and (max-width: 1399px) {
+  .content{
+    &.PhoneMainInfo{
+      .frame3_block {
+        width: 670px;
+        margin: auto 40px;
+      }
+      .frame3_block_h4 {
+        font-size:24px ;
+        font-weight: 700;
+        line-height: 110%; /* 44px */
+      }
+      .frame3_block_h2 {
+        font-size: 24px;
+        font-style: normal;
+        line-height: 110%;
+        margin: 0 0 20px 0 ;
+      }
+
+      .frame3_block_p {
+        font-size: 18px;
+        line-height: 115%;
+        height: auto;
+        margin: 0;
+        width: 670px;
+        span {
+          font-size: 18px;
+          line-height: 110%;
+        }
+      }
+
+      .frame3_block_h3 {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 24px;
+        line-height: 110%;
+        height:40px;
+        margin-bottom:20px ;
+      }
+    }
+  }
+}
+
+@media (min-width: 560px) and (max-width: 959px) {
+  .content{
+    &.PhoneMainInfo{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      .frame3_block {
+        width: 460px;
+        height: fit-content;
+      }
+      .frame3_block_h4 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 110%; /* 44px */
+        width: 460px;
+      }
+      .frame3_block_h2 {
+        font-size: 24px;
+        font-style: normal;
+        line-height: 110%;
+        margin: 0 0 20px 0 ;
+      }
+
+      .frame3_block_p {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 115%;
+        height: auto;
+        margin: 0;
+        width: 460px;
+        span {
+          font-size: 24px;
+          line-height: 110%;
+        }
+      }
+
+      .frame3_block_h3 {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 24px;
+        line-height: 110%;
+        height:80px;
+        margin-bottom:20px ;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 559px) {
+  .content{
+    &.PhoneMainInfo{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      .frame3_block {
+        width: 250px;
+        height: fit-content;
+        align-items: center;
+        padding: 20px;
+      }
+      .frame3_block_h4 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 110%; /* 44px */
+        margin: 0 0 15px 0 ;
+        width: 250px;
+        text-align: center;
+      }
+      .frame3_block_h2 {
+        font-size: 24px;
+        font-style: normal;
+        line-height: 110%;
+        margin: 0 0 15px 0 ;
+        text-align: left;
+        width: 250px;
+      }
+
+      .frame3_block_p {
+        font-family: 'Futura PT', sans-serif;
+        text-align: left;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        height: auto;
+        margin: 0 0 15px 0 ;
+        width: 250px;
+        span {
+          font-size: 18px;
+          line-height: 110%;
+        }
+      }
+
+      .frame3_block_h3 {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 24px;
+        line-height: 110%;
+        height:58px;
+        text-align: left;
+        margin-bottom:10px ;
+      }
+    }
+  }
+}
