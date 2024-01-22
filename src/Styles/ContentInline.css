@@ -241,6 +241,9 @@
     height: fit-content;
     margin-bottom: 25px;
   }
+  .content.inlinecontent .frame5_block .inline_block:first-child {
+    margin-left: 0px;
+  }
   .content.inlinecontent .frame5_block .inline_block .inline_img {
     width: 60px;
     height: 70px;
@@ -341,6 +344,9 @@
     flex-wrap: wrap;
     cursor: default;
     margin-bottom: 20px;
+  }
+  .content.inlinecontent .frame5_block .inline_block:first-child {
+    margin-left: 20px;
   }
   .content.inlinecontent .frame5_block .inline_block:last-child {
     margin-bottom: 35px;

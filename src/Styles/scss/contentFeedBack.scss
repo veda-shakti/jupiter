@@ -159,8 +159,9 @@ $transition-duration: 0.3s;
     line-height: 110%;
     margin: 0 0 0 0;
     height: 100%;
-    width: calc(100% - 120px);
+    width: calc(100% - 100px);
     padding: 0 50px;
+    left: 0;
 
     .frame13_block {
       width: auto;

@@ -417,6 +417,7 @@
         width: 100%;
         padding: 0;
         height: 100%;
+        left: 0;
     }
     #content2 .scrolldiv{
         width: 100%;
@@ -570,16 +571,16 @@
     .scrolldiv{
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
-        width: auto;
-        padding: 0 15px;
+        width: calc(100% - 30px);
         height: 100%;
+        left: 0;
+        padding: 0 15px;
     }
     #content2 .scrolldiv{
         width: 100%;
         padding: 0;
     }
     .scrolldiv.fullwidthscroll {
-
         padding: 0;
 
     }

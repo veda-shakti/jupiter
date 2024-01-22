@@ -252,6 +252,18 @@
         margin: auto;
         overflow: hidden;
     }
+    .bg-phone {
+        background-image: none;
+        width: auto;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+    }
     #sparkle3,
     #sparkle4 {
         display: none;
@@ -265,6 +277,7 @@
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none;  /* IE and Edge */
         display: flex;
+        background-image: none;
     }
 
     .bg-phone {
@@ -294,6 +307,18 @@
         margin: auto;
         overflow: hidden;
     }
+    .bg-phone {
+        background-image: none;
+        width: auto;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+    }
     #sparkle3,
     #sparkle4 {
         display: none;
@@ -307,6 +332,7 @@
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none;  /* IE and Edge */
         display: flex;
+        background-image: none;
     }
     .container.phone.lastphone {
         background-image: none;
