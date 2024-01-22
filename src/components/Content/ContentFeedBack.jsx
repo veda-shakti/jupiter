@@ -52,7 +52,7 @@ const ContentFeedBack = (props) => {
                 <div className="scrolldiv" id={`scroll${props.contentid}`}>
                     <div className="contentblock">
                         <div className="frame13_block">
-                            <h2 className="frame13_h2">Что говорят об Астропрогнозе?</h2>
+                            <h2 className="frame13_h2">Что говорят о моих практиках?</h2>
                             <div className="frame13_content">
                                 <div className="containerforframe13">
                                     <div className="column" id="column1">

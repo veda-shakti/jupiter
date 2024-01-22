@@ -417,11 +417,13 @@
     margin-bottom: 0;
   }
   .frame8_block_row3_block_h5 {
-    font-size: 36px;
+    font-size: 24px;
+    line-height: 110%;
     margin: 0;
   }
   .frame8_block_row3_block_p {
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 110%;
     width: 300px;
     margin: 0;
   }

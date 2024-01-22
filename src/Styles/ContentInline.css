@@ -146,19 +146,19 @@
     margin-left: 65px;
   }
   .content.inlinecontent .frame5_block .inline_block .inline_img {
-    width: 60px;
-    height: 70px;
+    width: 47px;
+    height: 55px;
     position: absolute;
   }
   .content.inlinecontent .frame5_block .inline_block .inline_h5 {
     font-size: 24px;
-    padding-left: 75px;
+    padding-left: 62px;
   }
   .content.inlinecontent .frame5_block .inline_block .inline_p {
-    font-size: 24px;
+    font-size: 18px;
     width: 400px;
     margin: 0;
-    padding-left: 75px;
+    padding-left: 62px;
     line-height: 110%;
   }
 }

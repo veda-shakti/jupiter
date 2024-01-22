@@ -87,6 +87,7 @@ $transition-duration: 0.3s;
     text-align: center;
     line-height: 110%;
     margin: 0;
+    font-size: 18px;
     left: -20px;
 
     .frame13_block {
@@ -124,11 +125,12 @@ $transition-duration: 0.3s;
       &_name {
         margin: 0;
         margin-bottom: 10px;
-        font-size: 36px;
+        font-size: 24px;
         font-weight: 700;
       }
       &_p {
         margin: 0;
+
       }
     }
     .frame13_content {

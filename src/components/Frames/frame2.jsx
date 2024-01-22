@@ -275,7 +275,7 @@ export const Frame2 = () => {
 
                 <ContentPhoneMainInfo
                     contentid="7"
-                    title={<h4 className="frame3_block_h4">Вам необходим тот, кто поможет проложить путь  к благополучию и преумножению вашей удачи...</h4>}
+                    title={<h4 className="frame3_block_h4">Вам необходим тот, кто поможет проложить путь к благополучию и преумножению вашей удачи...</h4>}
                     unbg={true}
                 />
             </Container>

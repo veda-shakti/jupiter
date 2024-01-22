@@ -72,6 +72,7 @@
     text-align: center;
     line-height: 110%;
     margin: 0;
+    font-size: 18px;
     left: -20px;
   }
   .frame13 .frame13_block {
@@ -106,7 +107,7 @@
   .frame13 .frame13_content_block_name {
     margin: 0;
     margin-bottom: 10px;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
   }
   .frame13 .frame13_content_block_p {
