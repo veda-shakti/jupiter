@@ -138,10 +138,11 @@ $transition-duration: 0.3s;
       flex-wrap: wrap;
       justify-content: space-between;
       padding-bottom: 90px;
+    }
 
       &_h2 {
         line-height: 110%;
-        font-size: 24px;
+        font-size: 36px;
         font-weight: 700;
         margin-top: 50px;
         margin-bottom: 52px;
@@ -149,7 +150,6 @@ $transition-duration: 0.3s;
         width: 720px;
         text-align: center;
       }
-    }
   }
 }
 @media (min-width: 560px) and (max-width: 959px) {
