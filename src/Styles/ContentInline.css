@@ -1,5 +1,5 @@
 .content.inlinecontent {
-  margin-left: 80px;
+  margin-left: 0px;
 }
 .content.inlinecontent .frame5_block.inlineframe {
   position: absolute;
@@ -25,7 +25,7 @@
   color: #713513;
 }
 .content.inlinecontent .frame5_block .scrolldiv.horizontal {
-  width: 1010px;
+  width: 1136px;
   overflow-y: hidden;
   height: 210px;
   position: absolute;
@@ -50,9 +50,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 110%; /* 38.088px */
-  margin: 0;
-  margin-top: 113px;
-  margin-bottom: 30px;
+  margin: 113px 0 30px 120px;
   background: linear-gradient(238deg, #713513 0.85%, #BE7C4D 43.51%, #DCAE7B 47.39%, #BE7C4D 50.62%, #713513 90.69%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -85,6 +83,9 @@
   cursor: default;
   align-content: flex-start;
 }
+.content.inlinecontent .frame5_block .inline_block:first-child {
+  margin-left: 120px;
+}
 .content.inlinecontent .frame5_block .inline_block .inline_img {
   width: 60px;
   height: 70px;
@@ -109,7 +110,7 @@
 
 @media (min-width: 960px) and (max-width: 1399px) {
   .content.inlinecontent {
-    margin-left: 25px;
+    margin-left: 0px;
   }
   .content.inlinecontent .frame5_block.inlineframe {
     position: absolute;
@@ -122,10 +123,10 @@
     height: 420px;
   }
   .content.inlinecontent .contentblock.horizonral {
-    width: 3000px;
+    width: 3530px;
   }
   .content.inlinecontent .frame5_block .scrolldiv.horizontal {
-    width: 800px;
+    width: 855px;
     height: 190px;
     top: 140px;
   }
@@ -134,11 +135,15 @@
     width: 730px;
     margin-top: 70px;
     margin-bottom: 30px;
+    margin-left: 65px;
   }
   .content.inlinecontent .frame5_block .inline_block {
     width: 475px;
     height: 120px;
     margin-right: 20px;
+  }
+  .content.inlinecontent .frame5_block .inline_block:first-child {
+    margin-left: 65px;
   }
   .content.inlinecontent .frame5_block .inline_block .inline_img {
     width: 60px;

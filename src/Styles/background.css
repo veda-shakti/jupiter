@@ -533,6 +533,49 @@ footer a {
         height: 596px;
     }
 
+    #bg-image-3.bg-img-5 {
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 502px;
+        height: 502px;
+        animation: scale 14s infinite linear;
+        user-select: none;
+        -moz-user-select: none; /* Для Firefox */
+        -webkit-user-select: none; /* Для Chrome, Safari и Opera */
+        -ms-user-select: none; /* Для Internet Explorer/Edge */
+
+    }
+    .opening.right2.bg-img-5,
+    .closing.right2.bg-img-5 {
+        position: absolute;
+        top:0px;
+        right: -70px;
+        width: 502px;
+        height: 502px;
+    }
+
+    #bg-image-4.bg-img-5 {
+        position: absolute;
+        bottom:0;
+        left: 0;
+        width: 394px;
+        height: 394px;
+        animation: scale 14s infinite linear;
+        user-select: none;
+        -moz-user-select: none; /* Для Firefox */
+        -webkit-user-select: none; /* Для Chrome, Safari и Opera */
+        -ms-user-select: none; /* Для Internet Explorer/Edge */
+    }
+    .opening.left2.bg-img-5,
+    .closing.left2.bg-img-5 {
+        position: absolute;
+        bottom:-20px;
+        left: -20px;
+        width: 394px;
+        height: 394px;
+    }
+
 }
 @media (min-width: 560px) and (max-width: 959px) {
 
