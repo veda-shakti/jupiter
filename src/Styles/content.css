@@ -16,6 +16,7 @@
     position: absolute;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */
+    left: 40px;
 }
 .scrolldiv::-webkit-scrollbar
 {
@@ -24,12 +25,21 @@
 .scrolldiv.fullwidthscroll {
     height: 100vh;
     width: 100%;
+    left: 0;
 
+}
+
+.no-select {
+    user-select: none;
+    -moz-user-select: none; /* Для Firefox */
+    -webkit-user-select: none; /* Для Chrome, Safari и Opera */
+    -ms-user-select: none; /* Для Internet Explorer/Edge */
 }
 
 .absolute {
     position: absolute;
     width: 100%;
+
 }
 #content1{
     opacity: 1;
@@ -253,11 +263,12 @@
     }
     .scrolldiv {
         overflow-y: hidden;
-        height: 395px;
+        height: 405px;
         width: 865px;
         position: absolute;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* IE and Edge */
+        left: 10px;
     }
     .content.introphone .frame2_block .frame2_block_img {
         position: absolute;
@@ -272,7 +283,7 @@
         text-align: center;
         width: 645px;
         height: 241px;
-        margin: 81px 76px ;
+        margin: 81px 106px ;
 
     }
     .content.introphone .frame2_block .frame2_block_time {
@@ -406,6 +417,7 @@
         width: 100%;
         padding: 0;
         height: 100%;
+        left: 0;
     }
     #content2 .scrolldiv{
         width: 100%;
@@ -559,16 +571,16 @@
     .scrolldiv{
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
-        width: auto;
-        padding: 0 15px;
+        width: calc(100% - 30px);
         height: 100%;
+        left: 0;
+        padding: 0 15px;
     }
     #content2 .scrolldiv{
         width: 100%;
         padding: 0;
     }
     .scrolldiv.fullwidthscroll {
-
         padding: 0;
 
     }

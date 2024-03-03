@@ -1,5 +1,5 @@
 .content.inlinecontent {
-  margin-left: 80px;
+  margin-left: 0px;
 }
 .content.inlinecontent .frame5_block.inlineframe {
   position: absolute;
@@ -25,7 +25,7 @@
   color: #713513;
 }
 .content.inlinecontent .frame5_block .scrolldiv.horizontal {
-  width: 1000px;
+  width: 1136px;
   overflow-y: hidden;
   height: 210px;
   position: absolute;
@@ -50,9 +50,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 110%; /* 38.088px */
-  margin: 0;
-  margin-top: 113px;
-  margin-bottom: 30px;
+  margin: 113px 0 30px 120px;
   background: linear-gradient(238deg, #713513 0.85%, #BE7C4D 43.51%, #DCAE7B 47.39%, #BE7C4D 50.62%, #713513 90.69%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -85,6 +83,9 @@
   cursor: default;
   align-content: flex-start;
 }
+.content.inlinecontent .frame5_block .inline_block:first-child {
+  margin-left: 120px;
+}
 .content.inlinecontent .frame5_block .inline_block .inline_img {
   width: 60px;
   height: 70px;
@@ -109,7 +110,7 @@
 
 @media (min-width: 960px) and (max-width: 1399px) {
   .content.inlinecontent {
-    margin-left: 25px;
+    margin-left: 0px;
   }
   .content.inlinecontent .frame5_block.inlineframe {
     position: absolute;
@@ -122,38 +123,42 @@
     height: 420px;
   }
   .content.inlinecontent .contentblock.horizonral {
-    width: 3000px;
+    width: 3425px;
   }
   .content.inlinecontent .frame5_block .scrolldiv.horizontal {
-    width: 800px;
+    width: 855px;
     height: 190px;
-    top: 140px;
+    top: 184px;
   }
   .content.inlinecontent .frame5_block .frame5_block_h4 {
     font-size: 36px;
     width: 730px;
-    margin-top: 70px;
+    margin-top: 114px;
     margin-bottom: 30px;
+    margin-left: 65px;
   }
   .content.inlinecontent .frame5_block .inline_block {
-    width: 475px;
+    width: 380px;
     height: 120px;
     margin-right: 20px;
   }
+  .content.inlinecontent .frame5_block .inline_block:first-child {
+    margin-left: 65px;
+  }
   .content.inlinecontent .frame5_block .inline_block .inline_img {
-    width: 60px;
-    height: 70px;
+    width: 47px;
+    height: 55px;
     position: absolute;
   }
   .content.inlinecontent .frame5_block .inline_block .inline_h5 {
     font-size: 24px;
-    padding-left: 75px;
+    padding-left: 62px;
   }
   .content.inlinecontent .frame5_block .inline_block .inline_p {
-    font-size: 24px;
+    font-size: 18px;
     width: 400px;
     margin: 0;
-    padding-left: 75px;
+    padding-left: 62px;
     line-height: 110%;
   }
 }
@@ -235,6 +240,9 @@
     cursor: default;
     height: fit-content;
     margin-bottom: 25px;
+  }
+  .content.inlinecontent .frame5_block .inline_block:first-child {
+    margin-left: 0px;
   }
   .content.inlinecontent .frame5_block .inline_block .inline_img {
     width: 60px;
@@ -336,6 +344,9 @@
     flex-wrap: wrap;
     cursor: default;
     margin-bottom: 20px;
+  }
+  .content.inlinecontent .frame5_block .inline_block:first-child {
+    margin-left: 20px;
   }
   .content.inlinecontent .frame5_block .inline_block:last-child {
     margin-bottom: 35px;

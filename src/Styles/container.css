@@ -83,6 +83,35 @@
 }
 
 .container.phone {
+    width: 1256px;
+    height: 696px;
+    position: fixed;
+    max-width: 1398px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    z-index: 100;
+}
+.postcontainer {
+    background-image: url(../assets/bg-phone.png);
+    height: 525px;
+    overflow: hidden;
+    position: fixed;
+    width: 1130px;
+    margin: 84px 0 100px 59px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    z-index: 1;
+}
+
+.bg-phone {
     background-image: url(../assets/phone_pic.png);
     width: 1256px;
     height: 696px;
@@ -94,20 +123,10 @@
     right: 0;
     margin: auto;
     overflow: hidden;
+    z-index: 100;
+    pointer-events: none;
 }
-.postcontainer {
-    height: 525px;
-    overflow: hidden;
-    position: fixed;
-    width: 1090px;
-    margin: 85px 40px 100px 99px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE and Edge */
-}
+
 .postcontainerFull {
     height: auto;
     overflow: hidden;
@@ -164,7 +183,6 @@
         position: absolute;
     }
     .container.phone {
-        background-image: url(../assets/phone_pic-notebook.png);
         width: 950px;
         height: 524px;
         position: fixed;
@@ -174,6 +192,22 @@
         right: 0;
         margin: auto;
         overflow: hidden;
+    }
+
+    .bg-phone {
+        background-image: url(../assets/phone_pic-notebook.png);
+        width: 950px;
+        height: 524px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+        z-index: 100;
+        pointer-events: none;
+        background-position: center;
     }
     .container .sparkle#sparkle3 {
         right: -83px;
@@ -187,14 +221,15 @@
         animation: sparkle2 2s infinite; /* Добавляем анимацию */
     }
     .postcontainer {
-        height: 395px;
-        width: 823px;
+        height: 410px;
+        width: 863px;
         overflow: hidden;
         position: fixed;
-        margin: 65px 0 0 75px;
+        margin: 55px 0 0 45px;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none;  /* IE and Edge */
         display: flex;
+        background-image: url(../assets/bg-phone-notebook.png);
     }
 
 }
@@ -206,6 +241,18 @@
         position: absolute;
     }
     .container.phone {
+        background-image: none;
+        width: auto;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+    }
+    .bg-phone {
         background-image: none;
         width: auto;
         height: 100%;
@@ -230,6 +277,11 @@
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none;  /* IE and Edge */
         display: flex;
+        background-image: none;
+    }
+
+    .bg-phone {
+        background-image: none;
     }
     .container.phone.lastphone {
         background-image: none;
@@ -255,6 +307,18 @@
         margin: auto;
         overflow: hidden;
     }
+    .bg-phone {
+        background-image: none;
+        width: auto;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+    }
     #sparkle3,
     #sparkle4 {
         display: none;
@@ -268,6 +332,7 @@
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none;  /* IE and Edge */
         display: flex;
+        background-image: none;
     }
     .container.phone.lastphone {
         background-image: none;

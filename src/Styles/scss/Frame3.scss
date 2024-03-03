@@ -97,7 +97,7 @@
     &.PhoneMainInfo{
       .frame3_block {
         width: 670px;
-        margin: auto 40px;
+        margin: auto 65px;
       }
       .frame3_block_h4 {
         font-size:24px ;
@@ -229,6 +229,9 @@
         span {
           font-size: 18px;
           line-height: 110%;
+        }
+        ul {
+          padding-left: 20px;
         }
       }
 

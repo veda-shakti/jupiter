@@ -9,7 +9,7 @@ const ContentIntroPhone = (props) => {
                     <div className="scrolldiv">
                     {props.contentvalue}
                     <div className="frame2_block contentblock">
-                        <img src={props.imgSrc} alt="emblem" className="frame2_block_img"></img>
+                        <img src={props.imgSrc} alt="emblem" className="frame2_block_img no-select"></img>
                         {props.title}
                         {props.description}
                         <div className="reg">

@@ -19,6 +19,8 @@ function App()
     const [bgtypebg, setBgtypebg] = useState('bg-img-1');
     const isSwiping = useRef(false);
 
+
+
     useEffect(() => {
         let shouldswitch = true;
         const frames = document.querySelectorAll('.content');

@@ -4,6 +4,7 @@ import '../Styles/container.css';
 const Container = (props) => {
         return (
                 <div className="container phone" id={`frame${props.containerid}`}>
+                    <div className="bg-phone"></div>
                     <div className="postcontainer" id={`postcontainer${props.containerid}`}>
                         {props.children}
                     </div>

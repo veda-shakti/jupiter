@@ -87,6 +87,8 @@ $transition-duration: 0.3s;
     text-align: center;
     line-height: 110%;
     margin: 0;
+    font-size: 18px;
+    left: -20px;
 
     .frame13_block {
       width: 730px;
@@ -123,11 +125,12 @@ $transition-duration: 0.3s;
       &_name {
         margin: 0;
         margin-bottom: 10px;
-        font-size: 36px;
+        font-size: 24px;
         font-weight: 700;
       }
       &_p {
         margin: 0;
+
       }
     }
     .frame13_content {
@@ -135,10 +138,11 @@ $transition-duration: 0.3s;
       flex-wrap: wrap;
       justify-content: space-between;
       padding-bottom: 90px;
+    }
 
       &_h2 {
         line-height: 110%;
-        font-size: 24px;
+        font-size: 36px;
         font-weight: 700;
         margin-top: 50px;
         margin-bottom: 52px;
@@ -146,7 +150,6 @@ $transition-duration: 0.3s;
         width: 720px;
         text-align: center;
       }
-    }
   }
 }
 @media (min-width: 560px) and (max-width: 959px) {
@@ -158,8 +161,9 @@ $transition-duration: 0.3s;
     line-height: 110%;
     margin: 0 0 0 0;
     height: 100%;
-    width: calc(100% - 120px);
+    width: calc(100% - 100px);
     padding: 0 50px;
+    left: 0;
 
     .frame13_block {
       width: auto;

@@ -21,7 +21,7 @@ const ContentFullWidth = (props) => {
                         </div>
                         <div className="frame8_block">
                             <div className="frame8_block_row1">
-                                <img src={props.photo} alt="Nasti Shackti" className="frame8_block_img"/>
+                                <img src={props.photo} alt="Nasti Shackti" className="frame8_block_img no-select"/>
                                 <div className="frame8_block_about">
                                     <h1 className="frame8_block_h1">Анастасия Шакти</h1>
                                     <p className="frame8_block_row1_p">
@@ -80,12 +80,12 @@ const ContentFullWidth = (props) => {
                             <div className="frame8_block_row3">
                                 <div className="frame8_block_row3_container">
                                     <div className="frame8_block_row3_block">
-                                        <h5 className="frame8_block_row3_block_h5">14 лет</h5>
+                                        <h5 className="frame8_block_row3_block_h5">15 лет</h5>
                                         <p className="frame8_block_row3_block_p">в практике восточных наук (с 2009
                                             года)</p>
                                     </div>
                                     <div className="frame8_block_row3_block">
-                                        <h5 className="frame8_block_row3_block_h5">более 30</h5>
+                                        <h5 className="frame8_block_row3_block_h5">более 40</h5>
                                         <p className="frame8_block_row3_block_p">исцеляющих судьбы ретритов с 2020
                                             г.</p>
                                     </div>
@@ -95,7 +95,7 @@ const ContentFullWidth = (props) => {
                                             традиции</p>
                                     </div>
                                     <div className="frame8_block_row3_block">
-                                        <h5 className="frame8_block_row3_block_h5">более 2000</h5>
+                                        <h5 className="frame8_block_row3_block_h5">более 3000</h5>
                                         <p className="frame8_block_row3_block_p">консультаций</p>
                                     </div>
                                     <div className="reg">

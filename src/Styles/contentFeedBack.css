@@ -72,6 +72,8 @@
     text-align: center;
     line-height: 110%;
     margin: 0;
+    font-size: 18px;
+    left: -20px;
   }
   .frame13 .frame13_block {
     width: 730px;
@@ -105,7 +107,7 @@
   .frame13 .frame13_content_block_name {
     margin: 0;
     margin-bottom: 10px;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
   }
   .frame13 .frame13_content_block_p {
@@ -117,9 +119,9 @@
     justify-content: space-between;
     padding-bottom: 90px;
   }
-  .frame13 .frame13_content_h2 {
+  .frame13_h2 {
     line-height: 110%;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 700;
     margin-top: 50px;
     margin-bottom: 52px;
@@ -136,8 +138,9 @@
     line-height: 110%;
     margin: 0 0 0 0;
     height: 100%;
-    width: calc(100% - 120px);
+    width: calc(100% - 100px);
     padding: 0 50px;
+    left: 0;
   }
   .frame13 .frame13_block {
     width: auto;
